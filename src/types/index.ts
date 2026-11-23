@@ -38,3 +38,6 @@ export interface Paciente {
   telefono?: string; // <-- agrega esta línea
   prevision: Prevision;
 }
+
+export type VistaApp = string;
+
